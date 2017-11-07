@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Foster Academics</title>
+  <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+
+  <div class="logo_head">
+    <a class="brand" href="#">
+      <img src="./assets/images/publisher-logo.png" alt="Foster Academics, Books Publisher" title="Foster Academics"> </a>
+    <div class="pull-right welcome" style="visibility:hidden"> Welcome
+      <strong> Guest&nbsp;User</strong>
+      <span class="pipe"> | </span>
+      <a href="http://www.fosteracademics.com/signInHome.do"> Login </a>
+      <!--          <span class="pipe"> | </span>  -->
+
+      <!--     <button class="btn btn-mini" id="subscribeBtn"> Subscribe </button> -->
+    </div>
+  </div>
+  <header>
+    <!--end of Link	<div class="nav-collapse ">-->
+    <nav class="navbar navbar-default nav_bg" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li style="padding-top:5px;"> </li>
+          <li class="">
+            <a href="index.html">
+              <i class="fa fa-home"> </i>
+            </a>
+          </li>
+          <li class="dividerPipe ">|</li>
+
+          <li>
+            <a [routerLink]="['about']" title="About Us" class="uppercase">About Us</a>
+          </li>
+
+          <li class="dividerPipe ">|</li>
+          <li class="" style="margin-right:0;">
+            <a href="sample.pdf" target="_blank">catalogue</a>
+          </li>
+          <li class="dividerPipe ">|</li>
+          <li>
+            <a href="contact-us.html" class="uppercase">Contact&nbsp;Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="col-xs-12 col-sm-5 col-md-3 pull-right text-right">
+      <form class=" nopadding mobsearch" role="search">
+        <div class="searchinput input-group">
+          <input type="text" class="form-control" placeholder="Search" name="q">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="advsearch pull-right a_btn" style="margin:3px 0 0 0;">
+          <a class="submit nomargin padding3px_5px" href="http://www.fosteracademics.com/Advance-Search">
+            <img src="./assets/images/a_plus.png" title="Advanced Search" alt="advanced&nbsp;Search"> </a>
+        </div>
+      </form>
+    </div>
+
+  </header>
+  <div class="clearfix"></div>
+  <div class="container-fluid wrapper">
+    <div class="row ">
+
+      <!--Column 1 starts-->
+      <!-- <style>
+.content .column1 div, .content .column5 .lib_logo .b2 div{padding:0 5px;}
+#dsq-combo-widget{margin-top:5px;}
+</style> -->
+      <section class="col-md-3 col-sm-3 margin_top5px">
+        <div class="sidebar-nav">
+          <h1 class="sectionHeading">BROWSE BY</h1>
+          <div class="clearfix"></div>
+          <div class="accordion visible-desktop" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle text_uppercase" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                  subject
+                  <i class="pull-right">
+                    <i class="fa fa-angle-down"></i>
+                  </i>
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                  <ul class="accordion-color">
+                    <li>
+                      <a title="Medical Science" href="http://www.fosteracademics.com/categories/sub11751/Medical+Science">Medical Science</a>
+                      <!-- Subject count is commented as requirement is moved to next version (0)-->
+                    </li>
+                    <li>
+                      <a title="Pharmaceutical Sciences" href="http://www.fosteracademics.com/categories/sub11753/Pharmaceutical+Sciences">Pharmaceutical Sciences</a>
+                      <!-- Subject count is commented as requirement is moved to next version (0)-->
+                    </li>
+
+                    <!--  <li><a href="/categories?classification=LCC">&nbsp;</a></li>
+      <i class="pull-right"> More<i class="icon icon-angle-right"></i></i></a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--  <li><a href="#" class="subhead text_uppercase">browse by authorR</a>
+  <ul>
+  
+     
+    </ul>
+  </li>-->
+            <!--    <div class="accordion-heading tabGradient uppercase"> <a class="accordion-toggle "  href="#">BROWSE BY DDC</a></div>
+
+ -->
+
+            <div class="accordion-heading">
+              <a class="accordion-toggle text_uppercase" href="http://www.fosteracademics.com/authors">AUTHOR / EDITOR</a>
+            </div>
+            <div class="accordion-heading uppercase">
+              <a class="accordion-toggle text_uppercase" href="http://www.fosteracademics.com/titles">TITLE</a>
+            </div>
+            <!-- <div class="accordion-heading tabGradient margin_top1px"> <a class="accordion-toggle"  href="#collapseFour"> RELATED SITES</a> </div> -->
+            <!--   <div class="accordion-heading tabGradient uppercase">  <a class="accordion-toggle "  href="#">REQUEST FOR ACCESS</a>  </div>
+ -->
+
+            <!--LIVE COMMENTS-->
+
+            <!--LIVE COMMENTS-->
+            <!--Column 1 ends-->
+            <div class="padding3px_5px border_wrapper margin_top5px hide" style="background-color:#F9F9F9" id="live_Coment1">
+              <h2 class="text_uppercase margin_top5px text_uppercase"> stay connected </h2>
+              <div class="border_bottom"> </div>
+              <div class="center">
+                <a href="https://www.facebook.com/allenpress" class="pull-left margin_right5px">
+                  <i class="facebook_icon"> </i>
+                </a>
+                <a href="https://twitter.com/allenpress" class="pull-left margin_right5px">
+                  <i class="twitter_icon"> </i>
+                </a>
+                <a href="#" class="pull-left margin_right5px hide">
+                  <i class="youtube_icon"> </i>
+                </a>
+                <a href="http://www.linkedin.com/company/allen-press-inc/products" class="pull-left margin_right5px">
+                  <i class="linkdin_icon"> </i>
+                </a>
+                <a href="http://allenpress.com/news/rss.xml" class="pull-left margin_right5px">
+                  <i class="rss_icon"> </i>
+                </a>
+                <a href="#" class="pull-left margin_right5px hide">
+                  <i class="wordpress_icon"> </i>
+                </a>
+              </div>
+              <div class="clearfix"> </div>
+              <div class="border_bottom"> </div>
+              <div class="margin_top20px hide">
+                <!--<img src="common/img/promotional_offers.jpg" alt="promotional offer" title="promotional offer" />-->
+                <h2 class="text_uppercase "> Promotional Offers </h2>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-md-9 col-sm-9 margin_top5px ">
+        <div id="bodydivs">
+          <h1 class="sectionHeading">FEATURED BOOKS</h1>
+          <div class="padding10px">
+
+            <div class="col-md-12" id="paging_container3">
+              <div class="alt_content mediaResults results">
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424808-T-FC.jpg" alt="Current Progress in Hematology - 9781632424808" title="Current Progress in Hematology">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424808">
+                        <a href="#">Current Progress in Hemat...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Martha Roper">Martha Roper</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424808-T-FC.jpg" alt="Current Progress in Hematology - 9781632424808" title="Current Progress in Hematology">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424808">
+                        <a href="#">Current Progress in Hemat...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Martha Roper">Martha Roper</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424778-T-FC.jpg" alt="Chronic Pain: Assessment, Diagnosis and Treatment - 9781632424778"
+                          title="Chronic Pain: Assessment, Diagnosis and Treatment">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424778">
+                        <a href="#">Chronic Pain: Assessment,...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Pam Kellner">Pam Kellner</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424778-T-FC.jpg" alt="Chronic Pain: Assessment, Diagnosis and Treatment - 9781632424778"
+                          title="Chronic Pain: Assessment, Diagnosis and Treatment">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424778">
+                        <a href="#">Chronic Pain: Assessment,...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Pam Kellner">Pam Kellner</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424860-T-FC.jpg" alt="Arthritis: Pathophysiology and Therapeutics - 9781632424860" title="Arthritis: Pathophysiology and Therapeutics">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424860">
+                        <a href="#">Arthritis: Pathophysiolog...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Mary Kellar">Mary Kellar</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424860-T-FC.jpg" alt="Arthritis: Pathophysiology and Therapeutics - 9781632424860" title="Arthritis: Pathophysiology and Therapeutics">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424860">
+                        <a href="#">Arthritis: Pathophysiolog...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Mary Kellar">Mary Kellar</h4>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632424723-T-FC.jpg" alt="Essentials of Physical Medicine and Rehabilitation - 9781632424723"
+                          title="Essentials of Physical Medicine and Rehabilitation">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632424723">
+                        <a href="#">Essentials of Physical Me...</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Esther Henson">Esther Henson</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632425102-T-FC.jpg" alt="Essentials of Pharmacology - 9781632425102" title="Essentials of Pharmacology">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title">
+                        <a href="#">Essentials of Pharmacology</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Brendon Krauss">Brendon Krauss</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="http://www.fosteracademics.com/info/9781632425102">
+                        <img src="./assets/images/9781632425102-T-FC.jpg" alt="Essentials of Pharmacology - 9781632425102" title="Essentials of Pharmacology">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title">
+                        <a href="http://www.fosteracademics.com/info/9781632425102">Essentials of Pharmacology</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Brendon Krauss">Brendon Krauss</h4>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                  <article class="result media-result ebook">
+                    <div class="cover">
+                      <a href="#">
+                        <img src="./assets/images/9781632425072-T-FC.jpg" alt="Essentials of Pathology - 9781632425072" title="Essentials of Pathology">
+                      </a>
+                    </div>
+                    <div class="details">
+                      <h3 class="title" title="9781632425072">
+                        <a href="#">Essentials of Pathology</a>
+                      </h3>
+                      <h4 class="author" title="&gt;Hans Affleck">Hans Affleck</h4>
+                    </div>
+                  </article>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
