@@ -15,10 +15,10 @@ import { Routes, RouterModule } from '@angular/router';
                         path: '',
                         component: HomeComponent,
                         children: [
-                              // {
-                              //       path: '',
-                              //       component: MainComponent
-                              // },
+                              {
+                                    path: '',
+                                    component: HomeComponent
+                              },
                               {
                                     path: 'about',
                                     component: AboutComponent
