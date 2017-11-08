@@ -8,43 +8,15 @@ import { ModuleWithProviders } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { Routes, RouterModule } from '@angular/router';
 
-@NgModule({
-      imports: [
-            RouterModule.forChild([
-                  {
-                        path: '',
-                        component: HomeComponent,
-                        children: [
-                              {
-                                    path: '',
-                                    component: HomeComponent
-                              },
-                              {
-                                    path: 'about',
-                                    component: AboutComponent
-                              }
-                        ]
-                  }
-            ])
-      ],
-      exports: [
-            RouterModule
-      ]
-})
-export class PagesRoutingModule {
-}
-
-
-// export const routes: Routes = [
-//       {
-//             path: '',
-//             component: PagesComponent,
-//             children: [
-//                   { path: '', component: HomeComponent },
-//                   { path: 'home', component: HomeComponent },
-//                   { path: 'about', component: AboutComponent },
-//             ]
-//       }
-// ];
-
-// export const routing: ModuleWithProviders = RouterModule.forChild(routes);
+export const routes: Routes = [
+      {
+            path: '',
+            component: PagesComponent,
+            children: [
+                  { path: '', component: HomeComponent },
+                  { path: 'home', component: HomeComponent },
+                  { path: 'about', component: AboutComponent },
+            ]
+      }
+];
+export const PagesRoutingModule: ModuleWithProviders = RouterModule.forChild(routes);

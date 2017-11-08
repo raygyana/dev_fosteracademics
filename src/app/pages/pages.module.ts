@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PagesComponent } from './pages.component';
+
 import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main/main.component';
 import { PagesRoutingModule } from './pages.routing';
@@ -16,6 +18,7 @@ import { BooksByTitleComponent } from './books-by-title/books-by-title.component
             PagesRoutingModule
       ],
       declarations: [
+            PagesComponent,
             HomeComponent,
             MainComponent,
             AboutComponent,

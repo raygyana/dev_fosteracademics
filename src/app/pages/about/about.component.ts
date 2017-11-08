@@ -5,7 +5,6 @@ import { Router } from '@angular/router';
   selector: 'app-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
-  // template: `<router-outlet></router-outlet>`,
 })
 export class AboutComponent implements OnInit {
 

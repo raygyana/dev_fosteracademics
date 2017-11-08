@@ -17,8 +17,7 @@ import { AppComponent } from './app.component';
       imports: [
             RouterModule.forRoot([
                   { path: '', redirectTo: '/pages', pathMatch: 'full' },
-                  { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' },
-                  //   {path: 'users', loadChildren: 'app/users/users.module#UsersModule'}
+                  { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' }
             ])
       ],
       exports: [
