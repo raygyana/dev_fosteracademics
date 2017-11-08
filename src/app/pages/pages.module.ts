@@ -11,6 +11,9 @@ import { ContactComponent } from './contact/contact.component';
 import { PolicyComponent } from './policy/policy.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { BooksByTitleComponent } from './books-by-title/books-by-title.component';
+import { MedScComponent } from './category/med-sc/med-sc.component';
+import { PharmScComponent } from './category/pharm-sc/pharm-sc.component';
+import { NavigationComponent } from './main/navigation/navigation.component';
 
 @NgModule({
       imports: [
@@ -26,7 +29,10 @@ import { BooksByTitleComponent } from './books-by-title/books-by-title.component
             ContactComponent,
             PolicyComponent,
             TermsAndConditionsComponent,
-            BooksByTitleComponent
+            BooksByTitleComponent,
+            MedScComponent,
+            PharmScComponent,
+            NavigationComponent
       ],
       providers: []
 })

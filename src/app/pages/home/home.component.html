@@ -1,32 +1,32 @@
 <!DOCTYPE HTML>
 <html>
-
-<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="./assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Foster Academics</title>
   <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
   <link href="./assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-</head>
+</head> -->
 
 <body>
-  <div class="logo_head">
+  <!-- <div class="logo_head">
     <a class="brand" href="#">
       <img src="./assets/images/publisher-logo.png" alt="Foster Academics, Books Publisher" title="Foster Academics"> </a>
     <div class="pull-right welcome" style="visibility:hidden"> Welcome
       <strong> Guest&nbsp;User</strong>
       <span class="pipe"> | </span>
       <a href="http://www.fosteracademics.com/signInHome.do"> Login </a>
-      <!--          <span class="pipe"> | </span>  -->
-
-      <!--     <button class="btn btn-mini" id="subscribeBtn"> Subscribe </button> -->
     </div>
-  </div>
-  <header>
-    <!--end of Link	<div class="nav-collapse ">-->
+  </div> -->
+
+  <!-- <header>
     <nav class="navbar navbar-default nav bg" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -34,20 +34,19 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      </div>
+      </div> -->
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li style="padding-top:5px;"> </li>
           <li class="">
-            <a href="index.html">
+            <a [routerLink]="['home']">
               <i class="fa fa-home"> </i>
             </a>
           </li>
           <li class="dividerPipe ">|</li>
           <li>
-            <a [routerLink]="['about']" title="About Us" class="uppercase">About Us</a>
+            <a [routerLink]="['about']" class="uppercase">About Us</a>
           </li>
           <li class="dividerPipe ">|</li>
           <li class="" style="margin-right:0;">
@@ -55,12 +54,12 @@
           </li>
           <li class="dividerPipe ">|</li>
           <li>
-            <a href="contact-us.html" class="uppercase">Contact&nbsp;Us</a>
+            <a [routerLink]="['contact']" class="uppercase">Contact Us</a>
           </li>
         </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </nav>
+      </div> -->
+  <!-- navbar-collapse  -->
+  <!-- </nav>
 
     <div class="col-xs-12 col-sm-5 col-md-3 pull-right text-right">
       <form class=" nopadding mobsearch" role="search">
@@ -78,18 +77,13 @@
         </div>
       </form>
     </div>
-
   </header>
-  <div class="clearfix"></div>
+
+  <div class="clearfix"></div> -->
+
   <div class="container-fluid wrapper">
     <div class="row ">
-
-      <!--Column 1 starts-->
-      <!-- <style>
-.content .column1 div, .content .column5 .lib_logo .b2 div{padding:0 5px;}
-#dsq-combo-widget{margin-top:5px;}
-</style> -->
-      <section class="col-md-3 col-sm-3 margin_top5px">
+      <!-- <section class="col-md-3 col-sm-3 margin_top5px">
         <div class="sidebar-nav">
           <h1 class="sectionHeading">BROWSE BY</h1>
           <div class="clearfix"></div>
@@ -107,46 +101,25 @@
                 <div class="accordion-inner">
                   <ul class="accordion-color">
                     <li>
-                      <a title="Medical Science" href="http://www.fosteracademics.com/categories/sub11751/Medical+Science">Medical Science</a>
-                      <!-- Subject count is commented as requirement is moved to next version (0)-->
+                      <a title="Medical Science" [routerLink]="['med-sc']">Medical Science</a>
                     </li>
                     <li>
-                      <a title="Pharmaceutical Sciences" href="http://www.fosteracademics.com/categories/sub11753/Pharmaceutical+Sciences">Pharmaceutical Sciences</a>
-                      <!-- Subject count is commented as requirement is moved to next version (0)-->
+                      <a title="Pharmaceutical Sciences" [routerLink]="['pharm-sc']">Pharmaceutical Sciences</a>
                     </li>
-
-                    <!--  <li><a href="/categories?classification=LCC">&nbsp;</a></li>
-      <i class="pull-right"> More<i class="icon icon-angle-right"></i></i></a></li> -->
                   </ul>
                 </div>
               </div>
             </div>
 
-            <!--  <li><a href="#" class="subhead text_uppercase">browse by authorR</a>
-  <ul>
-  
-     
-    </ul>
-  </li>-->
-            <!--    <div class="accordion-heading tabGradient uppercase"> <a class="accordion-toggle "  href="#">BROWSE BY DDC</a></div>
-
- -->
-
             <div class="accordion-heading">
-              <a class="accordion-toggle text_uppercase" href="http://www.fosteracademics.com/authors">AUTHOR / EDITOR</a>
+              <a class="accordion-toggle text_uppercase" [routerLink]="['authors']">AUTHOR / EDITOR</a>
             </div>
             <div class="accordion-heading uppercase">
-              <a class="accordion-toggle text_uppercase" href="http://www.fosteracademics.com/titles">TITLE</a>
-            </div>
-            <!-- <div class="accordion-heading tabGradient margin_top1px"> <a class="accordion-toggle"  href="#collapseFour"> RELATED SITES</a> </div> -->
-            <!--   <div class="accordion-heading tabGradient uppercase">  <a class="accordion-toggle "  href="#">REQUEST FOR ACCESS</a>  </div>
- -->
+              <a class="accordion-toggle text_uppercase" [routerLink]="['books-by-title']">TITLE</a>
+            </div> -->
 
-            <!--LIVE COMMENTS-->
-
-            <!--LIVE COMMENTS-->
-            <!--Column 1 ends-->
-            <div class="padding3px_5px border_wrapper margin_top5px hide" style="background-color:#F9F9F9" id="live_Coment1">
+      <!--Column 1 ends-->
+      <!-- <div class="padding3px_5px border_wrapper margin_top5px hide" style="background-color:#F9F9F9" id="live_Coment1">
               <h2 class="text_uppercase margin_top5px text_uppercase"> stay connected </h2>
               <div class="border_bottom"> </div>
               <div class="center">
@@ -172,19 +145,18 @@
               <div class="clearfix"> </div>
               <div class="border_bottom"> </div>
               <div class="margin_top20px hide">
-                <!--<img src="common/img/promotional_offers.jpg" alt="promotional offer" title="promotional offer" />-->
                 <h2 class="text_uppercase "> Promotional Offers </h2>
                 <br>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="col-md-9 col-sm-9 margin_top5px ">
         <div id="bodydivs">
           <h1 class="sectionHeading">FEATURED BOOKS</h1>
-          <div class="padding10px">
+          <div class="padding100px">
 
             <div class="col-md-12" id="paging_container3">
               <div class="alt_content mediaResults results">
@@ -350,7 +322,24 @@
       </section>
     </div>
   </div>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- <div class="footer margin_top5px">
+    <div class="navbar">
+      <div class="menu_bg navbar-inner no_padding_margin">
+        <ul class="footer menu">
+          <li class="active">
+            <a class="border_left0px" href="/terms-and-conditions">Terms &amp; Conditions </a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+
+          <li class="float-right search"> &copy; 2017 Foster Academics. All right reserved &nbsp;&nbsp; </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script> -->
 </body>
 
