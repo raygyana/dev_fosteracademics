@@ -14,6 +14,9 @@ import { BooksByTitleComponent } from './books-by-title/books-by-title.component
 import { MedScComponent } from './category/med-sc/med-sc.component';
 import { PharmScComponent } from './category/pharm-sc/pharm-sc.component';
 import { NavigationComponent } from './main/navigation/navigation.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { LeftnavComponent } from './leftnav/leftnav.component';
 
 @NgModule({
       imports: [
@@ -32,7 +35,10 @@ import { NavigationComponent } from './main/navigation/navigation.component';
             BooksByTitleComponent,
             MedScComponent,
             PharmScComponent,
-            NavigationComponent
+            NavigationComponent,
+            FooterComponent,
+            HeaderComponent,
+            LeftnavComponent
       ],
       providers: []
 })

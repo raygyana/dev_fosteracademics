@@ -25,6 +25,7 @@
     "bootstrap": "^3.3.7",
     "classlist.js": "^1.1.20150312",
     "core-js": "^2.4.1",
+    "css-animations": "^1.0.7",
     "font-awesome": "^4.7.0",
     "glyphicons-halflings": "^1.9.0",
     "npm-font-open-sans": "^1.1.0",

@@ -24,7 +24,7 @@ export const routes: Routes = [
             path: '',
             component: PagesComponent,
             children: [
-                  { path: '', component: HomeComponent },
+                  { path: '', component: MainComponent },
                   { path: 'home', component: HomeComponent },
                   { path: 'about', component: AboutComponent },
                   { path: 'contact', component: ContactComponent },
