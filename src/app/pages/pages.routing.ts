@@ -10,28 +10,27 @@ import { AuthorsComponent } from './authors/authors.component';
 import { BooksByTitleComponent } from './books-by-title/books-by-title.component';
 import { MedScComponent } from './category/med-sc/med-sc.component';
 import { PharmScComponent } from './category/pharm-sc/pharm-sc.component';
+import { PolicyComponent } from './policy/policy.component';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 
 import { PagesComponent } from './pages.component';
 
 
 export const routes: Routes = [
-      // {
-      //       path: 'main',
-      //       // component: MainComponent
-      //       loadChildren: './main/main.module#MainModule',
-      // },
       {
             path: '',
             component: PagesComponent,
             children: [
-                  { path: '', component: MainComponent },
+                  { path: '', component: HomeComponent },
                   { path: 'home', component: HomeComponent },
                   { path: 'about', component: AboutComponent },
                   { path: 'contact', component: ContactComponent },
                   { path: 'authors', component: AuthorsComponent },
                   { path: 'books-by-title', component: BooksByTitleComponent },
                   { path: 'med-sc', component: MedScComponent },
-                  { path: 'pharm-sc', component: PharmScComponent }
+                  { path: 'pharm-sc', component: PharmScComponent },
+                  { path: 'policy', component: PolicyComponent },
+                  { path: 'terms_and_conditions', component: TermsAndConditionsComponent }
             ]
       }
 ];

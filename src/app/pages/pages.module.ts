@@ -40,7 +40,8 @@ import { LeftnavComponent } from './leftnav/leftnav.component';
             HeaderComponent,
             LeftnavComponent
       ],
-      providers: []
+      providers: [],
+      exports: []
 })
 export class PagesModule {
 }
