@@ -23,6 +23,7 @@
     "@angular/router": "^4.2.4",
     "angular-font-awesome": "^3.0.2",
     "bootstrap": "^3.3.7",
+    "bootstrap-router": "^0.1.1-a",
     "classlist.js": "^1.1.20150312",
     "core-js": "^2.4.1",
     "css-animations": "^1.0.7",
@@ -30,6 +31,7 @@
     "glyphicons-halflings": "^1.9.0",
     "npm-font-open-sans": "^1.1.0",
     "rxjs": "^5.4.2",
+    "webfontloader": "^1.6.28",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {

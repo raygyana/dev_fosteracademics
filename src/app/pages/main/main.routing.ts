@@ -3,8 +3,6 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from '../main/main.component';
 import { PagesComponent } from '../pages.component';
-import { NavigationComponent } from '../main/navigation/navigation.component';
-
 
 export const routes: Routes = [
       {
@@ -16,8 +14,8 @@ export const routes: Routes = [
             path: '',
             component: MainComponent,
             children: [
-                  { path: '', component: MainComponent },
-                  { path: 'navigation', component: NavigationComponent }
+                  { path: '', component: MainComponent }
+
 
             ]
       }
